@@ -12,7 +12,7 @@ on:
         type: string
     secrets:
       envPAT:
-        required: true
+        required: false
     outputs:
       greeting_message:
         value: ${{ jobs.greeting.outputs.message }}

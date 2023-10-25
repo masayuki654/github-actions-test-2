@@ -32,4 +32,4 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - id: message
         run: |
-          echo "message = Hello ${{ inputs.friend_name }}" >> $GITHUB_OUTPUT
+          echo "message=Hello ${{ inputs.friend_name }}" >> $GITHUB_OUTPUT
